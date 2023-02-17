@@ -275,7 +275,7 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 
 body {
   font-family:
-    system-ui,
+    Poppins,
     -apple-system, /* Firefox supports this but not yet `system-ui` */
     'Segoe UI',
     Roboto,
@@ -536,7 +536,7 @@ html button {
 }/*
 ** Basic element styles
 */html, body {
-	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+	font-family: Poppins,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
 	text-rendering: optimizeLegibility; /* Enables kerning and ligatures etc. */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -550,7 +550,6 @@ html button {
 
 
 	color: #333333;
-	background-color: #fff;
 	fill: #333333;
 }/**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -2628,7 +2627,6 @@ padding: 0;
 
 html body.tc-body .tc-tiddler-frame {
 margin: 0;
-border-bottom: 1px solid #fff;
 padding: 5px;}
 
 html body.tc-body a.tc-tiddlylink-external:hover {
