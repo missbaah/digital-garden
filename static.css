@@ -751,7 +751,7 @@ Tiddler frame in story river
 a.tc-tiddlylink {
 	text-decoration: none;
 	font-weight: 500;
-	color: #06b1a1;
+	color: #5778d8;
 	-webkit-user-select: inherit; /* Otherwise the draggable attribute makes links impossible to select */
 	-webkit-touch-callout: none; /* Prevents long presses from bringing up a link preview */
 }.tc-sidebar-lists a.tc-tiddlylink {
@@ -1112,11 +1112,12 @@ a.tc-tiddlylink:hover {
 }@media (min-width: 960px) {.tc-message-box {
 		margin: 21px -21px 21px -21px;
 	}.tc-sidebar-scrollable {
-		position: fixed;
+		/* position: fixed;
 		top: 0px;
 		left: 770px;
 		bottom: 0;
-		right: 0;
+		right: 0; */
+		text-align: center;
 		overflow-y: auto;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
@@ -1126,14 +1127,16 @@ a.tc-tiddlylink:hover {
 		left: auto;
 		right: 770px;
 	}.tc-story-river {
-		position: relative;
+		display: flex;
+    justify-content: center;
+		/* position: relative;
 		left: 0px;
 		top: 0px;
 		width: 770px;
-		padding: 42px 42px 42px 42px;
+		padding: 42px 42px 42px 42px; */
 	}.tc-story-river.tc-static-story-river {
 		margin-right: 0;
-		padding-right: 42px;
+		/* padding-right: 42px; */
 	}}@media print {body.tc-body {
 		background-color: transparent;
 	}.tc-sidebar-header, .tc-topbar {
@@ -1213,6 +1216,7 @@ a.tc-tiddlylink:hover {
 	margin: 0;
 }.tc-site-title {
 	color: rgb(0, 0, 0);
+	text-align: center;
 }.tc-tiddler-title-icon {
 	vertical-align: middle;
 	margin-right: .1em;
